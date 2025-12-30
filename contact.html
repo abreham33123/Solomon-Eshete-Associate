@@ -1,0 +1,121 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | TaxPro</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container nav-content">
+    <a class="logo" href="index.html">TaxPro</a>
+
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="index.html#book" class="btn btn-primary">Book Appointment</a>
+    </nav>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open Menu">☰</button>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="faq.html">FAQ</a>
+    <a href="contact.html" class="active">Contact</a>
+    <a href="index.html#book" class="btn btn-primary mobile-cta">Book Appointment</a>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <span class="badge badge-center">CONTACT</span>
+      <h1 class="center">Get in touch</h1>
+      <p class="center muted maxw">
+        Send a message and we’ll reply as soon as possible.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-grid">
+      <div class="panel">
+        <h2>Contact info</h2>
+        <p class="muted">Use the form or reach us directly.</p>
+
+        <div class="list">
+          <div class="list-item">
+            <strong>Email</strong>
+            <span class="muted">soljoe4@gmail.com</span>
+          </div>
+          <div class="list-item">
+            <strong>Phone</strong>
+            <span class="muted">(651) 261-1673</span>
+          </div>
+          <div class="list-item">
+            <strong>Hours</strong>
+            <span class="muted">Mon–Fri, 9am–5pm</span>
+          </div>
+        </div>
+
+        <a href="index.html#book" class="btn btn-primary">Book Appointment</a>
+      </div>
+
+      <div class="card">
+        <h2>Send a message</h2>
+        <form class="contact-form" id="contactForm">
+          <label>
+            Full Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+
+          <label>
+            Message
+            <textarea name="message" rows="6" placeholder="How can we help?" required></textarea>
+          </label>
+
+          <button class="btn btn-primary btn-full" type="submit">Send Message</button>
+          <p class="tiny muted">We’ll respond soon.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>TaxPro</h4>
+      <p class="muted">Trusted tax support for individuals and small businesses.</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <p>© <span id="year"></span> TaxPro. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

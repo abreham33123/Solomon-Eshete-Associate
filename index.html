@@ -1,0 +1,244 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TaxPro | Trusted Tax Services</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container nav-content">
+    <a class="logo" href="index.html">TaxPro</a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+      <a href="#book" class="btn btn-primary">Book Appointment</a>
+    </nav>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open Menu">☰</button>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu" aria-label="Mobile Menu">
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="faq.html">FAQ</a>
+    <a href="contact.html">Contact</a>
+    <a href="#book" class="btn btn-primary mobile-cta">Book Appointment</a>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <span class="badge">YOUR TRUSTED TAX PARTNER</span>
+        <h1>Stress Less.<br>File With Confidence.</h1>
+        <p>
+          Fast, accurate tax prep for individuals and small businesses.
+          Clear guidance, secure handling, and support beyond filing season.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#book" class="btn btn-primary">Book Appointment</a>
+          <a href="services.html" class="btn btn-outline">View Services</a>
+        </div>
+
+        <div class="trust-row">
+          <div class="trust-item">
+            <strong>Secure</strong>
+            <span>Confidential handling</span>
+          </div>
+          <div class="trust-item">
+            <strong>Reliable</strong>
+            <span>Accurate filings</span>
+          </div>
+          <div class="trust-item">
+            <strong>Flexible</strong>
+            <span>Virtual & in-person</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <h3>Get a quick estimate</h3>
+        <p class="muted">Tell us what you need and we’ll follow up.</p>
+
+        <form class="mini-form" id="leadForm">
+          <label>
+            Full Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+
+          <label>
+            Service Needed
+            <select name="service" required>
+              <option value="">Select one</option>
+              <option>Personal Tax Filing</option>
+              <option>Business Tax Filing</option>
+              <option>IRS Resolution</option>
+              <option>Tax Planning</option>
+              <option>Bookkeeping Support</option>
+            </select>
+          </label>
+
+          <button class="btn btn-primary btn-full" type="submit">Request Info</button>
+          <p class="tiny muted">No spam. Just help.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="section-head">
+        <span class="badge badge-center">WHY TAXPRO</span>
+        <h2 class="center">Simple, secure, and built around you</h2>
+        <p class="center muted maxw">
+          Whether you’re filing a W-2, running a small business, or handling an IRS notice,
+          we keep the process clear and stress-free.
+        </p>
+      </div>
+
+      <div class="grid-4">
+        <div class="card">
+          <h4>Secure & Confidential</h4>
+          <p class="muted">We protect your information and handle documents carefully.</p>
+        </div>
+        <div class="card">
+          <h4>Transparent Pricing</h4>
+          <p class="muted">Clear pricing based on what you actually need.</p>
+        </div>
+        <div class="card">
+          <h4>IRS Support</h4>
+          <p class="muted">Help with notices, audits, payment plans, and next steps.</p>
+        </div>
+        <div class="card">
+          <h4>Year-Round Guidance</h4>
+          <p class="muted">Planning support so you can reduce taxes over time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES PREVIEW -->
+  <section class="section">
+    <div class="container">
+      <div class="split">
+        <div>
+          <span class="badge">OUR SERVICES</span>
+          <h2>Tax solutions for individuals and businesses</h2>
+          <p class="muted">
+            We handle personal and business filings, planning, and IRS issues.
+            If you’re not sure what you need, we’ll guide you.
+          </p>
+          <a href="services.html" class="btn btn-outline">See All Services</a>
+        </div>
+
+        <div class="grid-2">
+          <div class="service">
+            <h3>Personal Taxes</h3>
+            <p class="muted">W-2, 1099, credits, deductions, and accurate filing.</p>
+          </div>
+          <div class="service">
+            <h3>Business Taxes</h3>
+            <p class="muted">LLC, S-Corp, C-Corp, and self-employed support.</p>
+          </div>
+          <div class="service">
+            <h3>IRS Resolution</h3>
+            <p class="muted">Notices, audits, payment plans, and compliance help.</p>
+          </div>
+          <div class="service">
+            <h3>Tax Planning</h3>
+            <p class="muted">Reduce future liability with smart planning.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container cta-inner">
+      <div>
+        <h2>Ready to file or need support?</h2>
+        <p class="muted">Book online or contact us for questions.</p>
+      </div>
+      <div class="cta-actions">
+        <a href="#book" class="btn btn-primary">Book Appointment</a>
+        <a href="contact.html" class="btn btn-outline">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOK -->
+  <section id="book" class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="badge badge-center">GET STARTED</span>
+        <h2 class="center">Book your appointment</h2>
+        <p class="center muted maxw">
+          Choose a time that works for you. Virtual and in-person options available.
+        </p>
+      </div>
+
+      <div class="embed">
+        <iframe
+          src="https://calendly.com/abrehamsemu/tax-appointment"
+          title="Tax Appointment Booking"
+          loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>TaxPro</h4>
+      <p class="muted">Trusted tax support for individuals and small businesses.</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="footer-social">
+      <a href="https://www.instagram.com/abegetachew17/" target="_blank" aria-label="Instagram">
+        Instagram
+      </a>
+      <a href="https://www.facebook.com/abriah.getachew" target="_blank" aria-label="Facebook">
+        Facebook
+      </a>
+      <!-- <a href="https://www.linkedin.com/company/YOUR_PAGE" target="_blank" aria-label="LinkedIn">
+        LinkedIn
+      </a> -->
+    </div>
+
+
+  <div class="container footer-bottom">
+    <p>© <span id="year"></span> TaxPro. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

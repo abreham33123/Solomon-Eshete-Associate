@@ -1,0 +1,117 @@
+<!-- faq.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAQ | TaxPro</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container nav-content">
+    <a class="logo" href="index.html">TaxPro</a>
+
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="faq.html" class="active">FAQ</a>
+      <a href="contact.html">Contact</a>
+      <a href="index.html#book" class="btn btn-primary">Book Appointment</a>
+    </nav>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open Menu">☰</button>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="faq.html" class="active">FAQ</a>
+    <a href="contact.html">Contact</a>
+    <a href="index.html#book" class="btn btn-primary mobile-cta">Book Appointment</a>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <span class="badge badge-center">FAQ</span>
+      <h1 class="center">Common questions</h1>
+      <p class="center muted maxw">
+        If you don’t see your question here, contact us and we’ll help.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container faq-list">
+      <details class="faq-item">
+        <summary>What documents should I bring?</summary>
+        <p class="muted">
+          Bring a photo ID, W-2s, 1099s, last year’s return (if available), and any documents
+          related to deductions or credits (education, childcare, mortgage interest, etc.).
+        </p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Do you offer virtual appointments?</summary>
+        <p class="muted">Yes. We offer virtual and in-person appointments.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>How long does tax prep take?</summary>
+        <p class="muted">
+          It depends on complexity, but most returns can be completed quickly once we have
+          all documents.
+        </p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Can you help with an IRS letter or notice?</summary>
+        <p class="muted">
+          Yes. We can review your notice, explain what it means, and help you respond.
+        </p>
+      </details>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container cta-inner">
+      <div>
+        <h2>Still have questions?</h2>
+        <p class="muted">Contact us and we’ll get back to you.</p>
+      </div>
+      <div class="cta-actions">
+        <a href="contact.html" class="btn btn-primary">Contact</a>
+        <a href="index.html#book" class="btn btn-outline">Book Appointment</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>TaxPro</h4>
+      <p class="muted">Trusted tax support for individuals and small businesses.</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <p>© <span id="year"></span> TaxPro. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
