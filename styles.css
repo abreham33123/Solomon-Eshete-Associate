@@ -43,6 +43,9 @@ a { color: inherit; text-decoration: none; }
   border-bottom: 1px solid var(--border);
   box-shadow: 0 1px 6px rgba(0,0,0,0.04);
 }
+.navbar .btn-primary {
+  color: white;
+}
 
 .nav-content {
   height: 74px;
@@ -329,6 +332,11 @@ input:focus, select:focus, textarea:focus {
   grid-template-columns: 0.9fr 1.1fr;
   gap: 20px;
 }
+/* Contact panel spacing */
+.panel .list {
+  margin-bottom: 16px;
+}
+
 
 /* FOOTER */
 .footer {
