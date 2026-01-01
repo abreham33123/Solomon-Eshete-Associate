@@ -398,3 +398,11 @@ input:focus, select:focus, textarea:focus {
   color: #0f172a;
 }
 
+.hero-image,
+.about-image {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+

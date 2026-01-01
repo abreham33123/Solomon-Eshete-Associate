@@ -1,17 +1,16 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TaxPro | Trusted Tax Services</title>
+  <title>Solomon Eshete & Associate | Professional Tax Services</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
 <header class="navbar">
   <div class="container nav-content">
-    <a class="logo" href="index.html">TaxPro</a>
+    <a class="logo" href="index.html">Solomon Eshete &amp; Associate</a>
 
     <nav class="nav-links" aria-label="Primary">
       <a href="index.html" class="active">Home</a>
@@ -25,7 +24,7 @@
     <button class="menu-toggle" id="menuToggle" aria-label="Open Menu">☰</button>
   </div>
 
-  <div class="mobile-menu" id="mobileMenu" aria-label="Mobile Menu">
+  <div class="mobile-menu" id="mobileMenu">
     <a href="index.html" class="active">Home</a>
     <a href="about.html">About</a>
     <a href="services.html">Services</a>
@@ -40,11 +39,20 @@
   <section class="hero">
     <div class="container hero-grid">
       <div class="hero-text">
-        <span class="badge">YOUR TRUSTED TAX PARTNER</span>
+        <span class="badge">
+          ENROLLED AGENT • IRS-REGISTERED TAX PRACTITIONER
+        </span>
+
         <h1>Stress Less.<br>File With Confidence.</h1>
+
         <p>
-          Fast, accurate tax prep for individuals and small businesses.
-          Clear guidance, secure handling, and support beyond filing season.
+          Professional, accurate, and secure tax preparation services for individuals
+          and small businesses. We focus on clarity, compliance, and long-term
+          financial confidence.
+        </p>
+
+        <p class="muted">
+          Authorized to represent clients before the Internal Revenue Service.
         </p>
 
         <div class="hero-buttons">
@@ -68,19 +76,28 @@
         </div>
       </div>
 
+      <!-- IMAGE + FORM -->
       <div class="hero-card">
+        <img
+          src="images/solomon-eshete.jpg"
+          alt="Solomon Eshete, Enrolled Agent"
+          class="hero-image"
+        />
+
         <h3>Get a quick estimate</h3>
-        <p class="muted">Tell us what you need and we’ll follow up.</p>
+        <p class="muted">
+          Tell us what you need and we’ll follow up promptly.
+        </p>
 
         <form class="mini-form" id="leadForm">
           <label>
             Full Name
-            <input type="text" name="name" placeholder="Your name" required />
+            <input type="text" name="name" required />
           </label>
 
           <label>
             Email
-            <input type="email" name="email" placeholder="you@example.com" required />
+            <input type="email" name="email" required />
           </label>
 
           <label>
@@ -95,8 +112,10 @@
             </select>
           </label>
 
-          <button class="btn btn-primary btn-full" type="submit">Request Info</button>
-          <p class="tiny muted">No spam. Just help.</p>
+          <button class="btn btn-primary btn-full" type="submit">
+            Request Info
+          </button>
+          <p class="tiny muted">Your information is kept confidential.</p>
         </form>
       </div>
     </div>
@@ -106,10 +125,10 @@
   <section class="section section-light">
     <div class="container">
       <div class="section-head">
-        <span class="badge badge-center">WHY TAXPRO</span>
+        <span class="badge badge-center">WHY CHOOSE US</span>
         <h2 class="center">Simple, secure, and built around you</h2>
         <p class="center muted maxw">
-          Whether you’re filing a W-2, running a small business, or handling an IRS notice,
+          Whether you’re filing a W-2, operating a small business, or handling an IRS notice,
           we keep the process clear and stress-free.
         </p>
       </div>
@@ -117,55 +136,27 @@
       <div class="grid-4">
         <div class="card">
           <h4>Secure & Confidential</h4>
-          <p class="muted">We protect your information and handle documents carefully.</p>
+          <p class="muted">
+            Your information is protected and handled with care.
+          </p>
         </div>
         <div class="card">
           <h4>Transparent Pricing</h4>
-          <p class="muted">Clear pricing based on what you actually need.</p>
+          <p class="muted">
+            Clear pricing based on your specific needs.
+          </p>
         </div>
         <div class="card">
           <h4>IRS Support</h4>
-          <p class="muted">Help with notices, audits, payment plans, and next steps.</p>
+          <p class="muted">
+            Help with notices, audits, and payment plans.
+          </p>
         </div>
         <div class="card">
           <h4>Year-Round Guidance</h4>
-          <p class="muted">Planning support so you can reduce taxes over time.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SERVICES PREVIEW -->
-  <section class="section">
-    <div class="container">
-      <div class="split">
-        <div>
-          <span class="badge">OUR SERVICES</span>
-          <h2>Tax solutions for individuals and businesses</h2>
           <p class="muted">
-            We handle personal and business filings, planning, and IRS issues.
-            If you’re not sure what you need, we’ll guide you.
+            Ongoing planning to reduce future tax liability.
           </p>
-          <a href="services.html" class="btn btn-outline">See All Services</a>
-        </div>
-
-        <div class="grid-2">
-          <div class="service">
-            <h3>Personal Taxes</h3>
-            <p class="muted">W-2, 1099, credits, deductions, and accurate filing.</p>
-          </div>
-          <div class="service">
-            <h3>Business Taxes</h3>
-            <p class="muted">LLC, S-Corp, C-Corp, and self-employed support.</p>
-          </div>
-          <div class="service">
-            <h3>IRS Resolution</h3>
-            <p class="muted">Notices, audits, payment plans, and compliance help.</p>
-          </div>
-          <div class="service">
-            <h3>Tax Planning</h3>
-            <p class="muted">Reduce future liability with smart planning.</p>
-          </div>
         </div>
       </div>
     </div>
@@ -175,8 +166,8 @@
   <section class="cta">
     <div class="container cta-inner">
       <div>
-        <h2>Ready to file or need support?</h2>
-        <p class="muted">Book online or contact us for questions.</p>
+        <h2>Ready to get started?</h2>
+        <p class="muted">Book online or contact us with questions.</p>
       </div>
       <div class="cta-actions">
         <a href="#book" class="btn btn-primary">Book Appointment</a>
@@ -192,13 +183,13 @@
         <span class="badge badge-center">GET STARTED</span>
         <h2 class="center">Book your appointment</h2>
         <p class="center muted maxw">
-          Choose a time that works for you. Virtual and in-person options available.
+          Virtual and in-person appointments available.
         </p>
       </div>
 
       <div class="embed">
         <iframe
-          src="https://calendly.com/abrehamsemu/tax-appointment"
+          src="https://calendly.com/solomonesheteassociate/tax-services"
           title="Tax Appointment Booking"
           loading="lazy">
         </iframe>
@@ -210,8 +201,10 @@
 <footer class="footer">
   <div class="container footer-grid">
     <div>
-      <h4>TaxPro</h4>
-      <p class="muted">Trusted tax support for individuals and small businesses.</p>
+      <h4>Solomon Eshete &amp; Associate</h4>
+      <p class="muted">
+        Enrolled Agent (EA) • IRS-Registered Tax Practitioner
+      </p>
     </div>
 
     <div class="footer-links">
@@ -220,22 +213,10 @@
       <a href="faq.html">FAQ</a>
       <a href="contact.html">Contact</a>
     </div>
-
-    <div class="footer-social">
-      <a href="https://www.instagram.com/abegetachew17/" target="_blank" aria-label="Instagram">
-        Instagram
-      </a>
-      <a href="https://www.facebook.com/abriah.getachew" target="_blank" aria-label="Facebook">
-        Facebook
-      </a>
-      <!-- <a href="https://www.linkedin.com/company/YOUR_PAGE" target="_blank" aria-label="LinkedIn">
-        LinkedIn
-      </a> -->
-    </div>
-
+  </div>
 
   <div class="container footer-bottom">
-    <p>© <span id="year"></span> TaxPro. All rights reserved.</p>
+    <p>© <span id="year"></span> Solomon Eshete &amp; Associate. All rights reserved.</p>
   </div>
 </footer>
 
