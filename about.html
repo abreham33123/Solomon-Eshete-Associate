@@ -21,7 +21,22 @@
       <a href="index.html#book" class="btn btn-primary">Book Appointment</a>
     </nav>
 
-    <button class="menu-toggle" id="menuToggle">☰</button>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+      ☰
+    </button>
+  </div>
+
+  <!-- ✅ MOBILE MENU (REQUIRED FOR JS TO WORK) -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="about.html" class="active">About</a>
+    <a href="services.html">Services</a>
+    <a href="faq.html">FAQ</a>
+    <a href="contact.html">Contact</a>
+
+    <a href="index.html#book" class="btn btn-primary mobile-cta">
+      Book Appointment
+    </a>
   </div>
 </header>
 
@@ -89,16 +104,28 @@
   <div class="container footer-grid">
     <div>
       <h4>Solomon Eshete &amp; Associate</h4>
-      <p class="muted">Enrolled Agent • IRS-Registered Tax Practitioner</p>
+      <p class="muted">
+        Enrolled Agent • IRS-Registered Tax Practitioner
+      </p>
+    </div>
+
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
     </div>
   </div>
 
   <div class="container footer-bottom">
-    <p>© <span id="year"></span> Solomon Eshete &amp; Associate. All rights reserved.</p>
+    <p>
+      © <span id="year"></span> Solomon Eshete &amp; Associate.
+      All rights reserved.
+    </p>
   </div>
 </footer>
 
 <script src="script.js"></script>
 </body>
 </html>
-
